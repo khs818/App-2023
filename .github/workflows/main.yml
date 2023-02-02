@@ -19,7 +19,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: logs
-          path: logs/result.txt   
+          path: logs/result-safety.txt   
           
 
       - name: Pyraider
