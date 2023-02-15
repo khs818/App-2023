@@ -29,5 +29,5 @@ jobs:
           
       - uses: actions/upload-artifact@v2
         with:
-          name: logs test
+          name: logs
           path: logs/result.json 
