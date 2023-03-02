@@ -16,7 +16,7 @@ jobs:
       
       - uses: max/secret-scan@master
         with:
-          excluse_path: 'logs/exclude.txt'
+          exclude_path: 'logs/exclude.txt'
   sca:
     runs-on: ubuntu-latest
 
