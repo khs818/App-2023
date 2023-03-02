@@ -10,7 +10,7 @@ jobs:
       
       - run: |
           mkdir -p logs/
-          echo 'Environment/App/db' > logs/exclude.txt
+          echo './Environment/App/db' > logs/exclude.txt
         
       
       
